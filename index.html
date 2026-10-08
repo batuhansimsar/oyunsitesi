@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VoidWar: Obsidian Throne — Epik Karanlık Fantezi Strateji Oyunu</title>
+  <meta name="description" content="VoidWar: Obsidian Throne — Karanlık bir fantezi dünyasında imparatorluklar kurun, ordular yönetin ve kaderi şekillendirin. Ücretsiz oynamaya başlayın." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-icon">⚔</span>
+        <span class="logo-text">VOID<span class="logo-accent">WAR</span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#features" id="nav-features">Özellikler</a></li>
+        <li><a href="#screenshots" id="nav-screenshots">Galeri</a></li>
+        <li><a href="#characters" id="nav-characters">Karakterler</a></li>
+        <li><a href="#news" id="nav-news">Haberler</a></li>
+      </ul>
+      <a href="#download" class="nav-cta" id="nav-cta-btn">Ücretsiz Oyna</a>
+      <button class="nav-mobile-toggle" id="mobile-menu-btn" aria-label="Menüyü aç">☰</button>
+    </div>
+    <ul class="nav-mobile-menu" id="mobile-menu">
+      <li><a href="#features">Özellikler</a></li>
+      <li><a href="#screenshots">Galeri</a></li>
+      <li><a href="#characters">Karakterler</a></li>
+      <li><a href="#news">Haberler</a></li>
+      <li><a href="#download">Ücretsiz Oyna</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-bg">
+      <img src="hero_banner_1791497260431.jpg" alt="VoidWar Savaş Alanı" class="hero-bg-img" />
+      <div class="hero-overlay"></div>
+      <div class="hero-particles" id="hero-particles"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Erken Erişim — Şimdi Mevcut
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line-1">VOIDWAR</span>
+        <span class="title-colon">:</span>
+        <span class="title-line-2">OBSİDYAN TAHT</span>
+      </h1>
+      <p class="hero-subtitle">
+        Karanlık büyünün hüküm sürdüğü bir dünyada imparatorluklar kurun.<br />
+        Ordularınızı savaşa sürün, rakiplerinizi ezerek tarihe adınızı yazdırın.
+      </p>
+      <div class="hero-actions">
+        <a href="#download" class="btn-primary" id="hero-play-btn">
+          <span class="btn-icon">▶</span>
+          Ücretsiz Oyna
+        </a>
+        <a href="#trailer" class="btn-secondary" id="hero-trailer-btn">
+          <span class="btn-icon trailer-icon">◉</span>
+          Fragmanı İzle
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-value" data-target="2400000">0</span>
+          <span class="stat-label">Aktif Oyuncu</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-value" data-target="97">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Olumlu Yorum</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-value" data-target="48">0</span>
+          <span class="stat-label">Ülkede Oynuyor</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Kaydır</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ── TRAILER ── -->
+  <section id="trailer" class="section-trailer">
+    <div class="container">
+      <div class="trailer-wrapper">
+        <div class="trailer-frame" id="trailer-frame">
+          <img src="screenshot_1_1791497334494.jpg" alt="VoidWar Oynanış" class="trailer-thumb" />
+          <button class="trailer-play-btn" id="trailer-play-btn" aria-label="Fragmanı oynat">
+            <div class="play-circle">
+              <div class="play-triangle"></div>
+            </div>
+            <div class="play-ripple"></div>
+          </button>
+          <div class="trailer-overlay-text">
+            <span>RESMÎ FRAGMAN</span>
+            <span class="trailer-duration">2:47</span>
+          </div>
+        </div>
+        <div class="trailer-info">
+          <span class="section-eyebrow">Oyun Fragmanı</span>
+          <h2 class="trailer-title">Karanlık Büyünün<br /><em>Gücünü Hisset</em></h2>
+          <p>Ejderhalar gökyüzünü kaplarken, ordularınız savaş meydanında kan döker. VoidWar, strateji türünü yeniden tanımlayan benzersiz bir deneyim sunar.</p>
+          <ul class="trailer-features-list">
+            <li><span class="check-icon">✦</span> 4K Ultra HD grafik kalitesi</li>
+            <li><span class="check-icon">✦</span> Dinamik savaş meydanı fiziği</li>
+            <li><span class="check-icon">✦</span> Binlerce birimin aynı anda savaşı</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FEATURES ── -->
+  <section id="features" class="section-features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Oyun Özellikleri</span>
+        <h2 class="section-title">Stratejinin Sınırlarını<br /><em>Yeniden Çiz</em></h2>
+        <p class="section-desc">VoidWar, derin strateji oynanışını epik karanlık fantezi evreninde buluşturur.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card" id="feature-empire">
+          <div class="feature-icon">🏰</div>
+          <h3>İmparatorluk İnşa Et</h3>
+          <p>Sıfırdan bir imparatorluk kur. Binalar inşa et, teknoloji araştır ve kaynakları stratejik olarak yönet.</p>
+          <div class="feature-glow"></div>
+        </div>
+        <div class="feature-card feature-card--large" id="feature-battle">
+          <div class="feature-icon">⚔️</div>
+          <h3>Epik Savaşlar</h3>
+          <p>10.000'e varan birlikle gerçek zamanlı muharebe. Büyücüler, süvariler ve kuşatma makineleri.</p>
+          <div class="feature-glow"></div>
+        </div>
+        <div class="feature-card" id="feature-magic">
+          <div class="feature-icon">✨</div>
+          <h3>Karanlık Büyü</h3>
+          <p>100'den fazla büyü ve ritual öğren. Boşluk gücünü kullanarak savaşın akışını değiştir.</p>
+          <div class="feature-glow"></div>
+        </div>
+        <div class="feature-card" id="feature-diplomacy">
+          <div class="feature-icon">🤝</div>
+          <h3>Siyasi Entrika</h3>
+          <p>İttifaklar kur, anlaşmalar yap ya da ihanet et. Her kararın sonuçları vardır.</p>
+          <div class="feature-glow"></div>
+        </div>
+        <div class="feature-card feature-card--large" id="feature-pvp">
+          <div class="feature-icon">🌐</div>
+          <h3>Çok Oyunculu PvP</h3>
+          <p>Dünyanın dört bir yanından oyuncularla rekabet et. Turnuvalar, sezonluk ligler ve büyük savaşlar.</p>
+          <div class="feature-glow"></div>
+        </div>
+        <div class="feature-card" id="feature-heroes">
+          <div class="feature-icon">👑</div>
+          <h3>Efsanevi Kahramanlar</h3>
+          <p>50'den fazla özgün kahraman topla ve geliştir. Her birinin kendine özgü yetenekleri var.</p>
+          <div class="feature-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SCREENSHOTS ── -->
+  <section id="screenshots" class="section-screenshots">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Ekran Görüntüleri</span>
+        <h2 class="section-title">Dünyaya Bir<br /><em>Göz At</em></h2>
+      </div>
+      <div class="gallery-main">
+        <div class="gallery-featured" id="gallery-featured">
+          <img src="screenshot_1_1791497334494.jpg" alt="Savaş Meydanı" id="gallery-main-img" />
+          <div class="gallery-caption" id="gallery-caption">
+            <span class="caption-num">01</span>
+            <span class="caption-text">Epik Savaş Meydanı — 10.000 Birim Aynı Anda</span>
+          </div>
+        </div>
+        <div class="gallery-thumbs">
+          <div class="gallery-thumb active" id="thumb-1" data-img="screenshot_1_1791497334494.jpg" data-caption="01 — Epik Savaş Meydanı — 10.000 Birim Aynı Anda">
+            <img src="screenshot_1_1791497334494.jpg" alt="Savaş Meydanı" />
+          </div>
+          <div class="gallery-thumb" id="thumb-2" data-img="screenshot_2_1791497348184.jpg" data-caption="02 — Şehir Yönetimi — Obsidyen Kale">
+            <img src="screenshot_2_1791497348184.jpg" alt="Şehir Yönetimi" />
+          </div>
+          <div class="gallery-thumb" id="thumb-3" data-img="screenshot_3_1791497360131.jpg" data-caption="03 — Dünya Haritası — Krallıklar Savaşıyor">
+            <img src="screenshot_3_1791497360131.jpg" alt="Dünya Haritası" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CHARACTERS ── -->
+  <section id="characters" class="section-characters">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Kahramanlar</span>
+        <h2 class="section-title">Efsanevi Savaşçıları<br /><em>Topla &amp; Yönet</em></h2>
+        <p class="section-desc">Her kahraman benzersiz yeteneklere ve hikayeye sahip. Savaş düzenini kendin belirle.</p>
+      </div>
+      <div class="characters-grid">
+        <div class="char-card" id="char-mage">
+          <div class="char-image-wrap">
+            <img src="character_1_1791497281442.jpg" alt="Runebender Aldric" />
+            <div class="char-rarity legendary">Efsanevi</div>
+          </div>
+          <div class="char-info">
+            <h3>Runebender Aldric</h3>
+            <span class="char-class">⚡ Büyücü</span>
+            <div class="char-stats">
+              <div class="char-stat">
+                <span class="stat-name">Saldırı</span>
+                <div class="stat-bar"><div class="stat-fill" style="--fill: 92%"></div></div>
+                <span class="stat-val">92</span>
+              </div>
+              <div class="char-stat">
+                <span class="stat-name">Savunma</span>
+                <div class="stat-bar"><div class="stat-fill" style="--fill: 45%"></div></div>
+                <span class="stat-val">45</span>
+              </div>
+              <div class="char-stat">
+                <span class="stat-name">Büyü</span>
+                <div class="stat-bar"><div class="stat-fill" style="--fill: 98%"></div></div>
+                <span class="stat-val">98</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="char-card char-card--featured" id="char-warlord">
+          <div class="char-image-wrap">
+            <img src="character_2_1791497293709.jpg" alt="Malakor Voidbringer" />
+            <div class="char-rarity mythic">Mitik</div>
+          </div>
+          <div class="char-info">
+            <h3>Malakor Voidbringer</h3>
+            <span class="char-class">⚔ Savaş Lordu</span>
+            <div class="char-stats">
+              <div class="char-stat">
+                <span class="stat-name">Saldırı</span>
+                <div class="stat-bar"><div class="stat-fill" style="--fill: 99%"></div></div>
+                <span class="stat-val">99</span>
+              </div>
+              <div class="char-stat">
+                <span class="stat-name">Savunma</span>
+                <div class="stat-bar"><div class="stat-fill" style="--fill: 88%"></div></div>
+                <span class="stat-val">88</span>
+              </div>
+              <div class="char-stat">
+                <span class="stat-name">Liderlik</span>
+                <div class="stat-bar"><div class="stat-fill" style="--fill: 95%"></div></div>
+                <span class="stat-val">95</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="char-card" id="char-rogue">
+          <div class="char-image-wrap">
+            <img src="character_3_1791497306939.jpg" alt="Kaelen Shadowblade" />
+            <div class="char-rarity legendary">Efsanevi</div>
+          </div>
+          <div class="char-info">
+            <h3>Kaelen Shadowblade</h3>
+            <span class="char-class">🗡 Suikastçı</span>
+            <div class="char-stats">
+              <div class="char-stat">
+                <span class="stat-name">Saldırı</span>
+                <div class="stat-bar"><div class="stat-fill" style="--fill: 88%"></div></div>
+                <span class="stat-val">88</span>
+              </div>
+              <div class="char-stat">
+                <span class="stat-name">Çeviklik</span>
+                <div class="stat-bar"><div class="stat-fill" style="--fill: 99%"></div></div>
+                <span class="stat-val">99</span>
+              </div>
+              <div class="char-stat">
+                <span class="stat-name">Gizlilik</span>
+                <div class="stat-bar"><div class="stat-fill" style="--fill: 96%"></div></div>
+                <span class="stat-val">96</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="char-cta">
+        <a href="#download" class="btn-outline" id="char-view-all-btn">50+ Kahramanı Keşfet</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── NEWS ── -->
+  <section id="news" class="section-news">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Son Haberler</span>
+        <h2 class="section-title">Güncel Kal,<br /><em>Güçlü Kal</em></h2>
+      </div>
+      <div class="news-grid">
+        <article class="news-card news-card--featured" id="news-1">
+          <div class="news-img-wrap">
+            <img src="screenshot_2_1791497348184.jpg" alt="Sezon 3 Güncellemesi" />
+            <span class="news-tag">Güncelleme</span>
+          </div>
+          <div class="news-body">
+            <time class="news-date">8 Ekim 2026</time>
+            <h3>Sezon 3: Obsidyen Yükselişi — Büyük Güncelleme Geliyor!</h3>
+            <p>Yeni bir mevsim başlıyor. 3 yeni kahraman, 15 yeni harita bölgesi ve tamamen yenilenen PvP sistemi ile hazır olun.</p>
+            <a href="#" class="news-link" id="news-read-1">Devamını Oku →</a>
+          </div>
+        </article>
+        <article class="news-card" id="news-2">
+          <div class="news-img-wrap">
+            <img src="screenshot_3_1791497360131.jpg" alt="Turnuva" />
+            <span class="news-tag">Etkinlik</span>
+          </div>
+          <div class="news-body">
+            <time class="news-date">5 Ekim 2026</time>
+            <h3>Dünya Şampiyonası Kayıtları Açıldı</h3>
+            <p>₺500.000 ödül havuzuyla düzenlenen dünya şampiyonası için kayıtlar başladı.</p>
+            <a href="#" class="news-link" id="news-read-2">Devamını Oku →</a>
+          </div>
+        </article>
+        <article class="news-card" id="news-3">
+          <div class="news-img-wrap">
+            <img src="screenshot_1_1791497334494.jpg" alt="Yama Notları" />
+            <span class="news-tag">Yama</span>
+          </div>
+          <div class="news-body">
+            <time class="news-date">1 Ekim 2026</time>
+            <h3>v2.4.1 Yama Notları — Denge Güncellemeleri</h3>
+            <p>Büyücü sınıfındaki aşırı güçlü yetenekler dengelendi, çeşitli hata düzeltmeleri yapıldı.</p>
+            <a href="#" class="news-link" id="news-read-3">Devamını Oku →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── DOWNLOAD / CTA ── -->
+  <section id="download" class="section-download">
+    <div class="download-bg">
+      <img src="hero_banner_1791497260431.jpg" alt="" class="download-bg-img" />
+      <div class="download-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="download-content">
+        <div class="download-badge">
+          <span>🔥</span> 2,4 Milyon Oyuncu Bekliyor
+        </div>
+        <h2 class="download-title">Hükümranlığına<br /><em>Bugün Başla</em></h2>
+        <p class="download-desc">
+          Ücretsiz oyna, kazan. Hiçbir ödeme gerektirmeden devasa bir strateji deneyimine adım at.
+        </p>
+        <div class="download-platforms">
+          <a href="#" class="platform-btn" id="dl-windows">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
+            <span><small>İndir</small>Windows</span>
+          </a>
+          <a href="#" class="platform-btn" id="dl-mac">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09z"/></svg>
+            <span><small>İndir</small>macOS</span>
+          </a>
+          <a href="#" class="platform-btn platform-btn--steam" id="dl-steam">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.494 0 4.524 2.031 4.524 4.527s-2.03 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.004.105.004.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.173-3.331-2.727L.436 15.27C1.862 20.307 6.486 24 11.979 24c6.627 0 11.999-5.373 11.999-12S18.606 0 11.979 0z"/></svg>
+            <span><small>Steam'de Aç</small>Steam</span>
+          </a>
+        </div>
+        <p class="download-fine">PC / Mac — Ücretsiz Oyna — 18+ (PEGI 18)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-icon">⚔</span>
+            <span class="logo-text">VOID<span class="logo-accent">WAR</span></span>
+          </div>
+          <p>Karanlık fantezinin en epik strateji deneyimi. 2026 yılında liderler şekillenir.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-btn" id="footer-twitter" aria-label="Twitter">𝕏</a>
+            <a href="#" class="social-btn" id="footer-discord" aria-label="Discord">💬</a>
+            <a href="#" class="social-btn" id="footer-youtube" aria-label="YouTube">▶</a>
+            <a href="#" class="social-btn" id="footer-twitch" aria-label="Twitch">📺</a>
+          </div>
+        </div>
+        <div class="footer-links-group">
+          <h4>Oyun</h4>
+          <ul>
+            <li><a href="#features">Özellikler</a></li>
+            <li><a href="#screenshots">Galeri</a></li>
+            <li><a href="#characters">Kahramanlar</a></li>
+            <li><a href="#download">İndir</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Topluluk</h4>
+          <ul>
+            <li><a href="#">Forum</a></li>
+            <li><a href="#">Discord Sunucusu</a></li>
+            <li><a href="#">Turnuvalar</a></li>
+            <li><a href="#">Haberler</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Destek</h4>
+          <ul>
+            <li><a href="#">SSS</a></li>
+            <li><a href="#">İletişim</a></li>
+            <li><a href="#">Sistem Gereksinimleri</a></li>
+            <li><a href="#">Gizlilik Politikası</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 VoidWar Studios. Tüm hakları saklıdır.</p>
+        <p>PEGI 18 — Şiddet İçerir</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── SCROLL TO TOP ── -->
+  <button class="scroll-top" id="scroll-top-btn" aria-label="Yukarı çık">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
