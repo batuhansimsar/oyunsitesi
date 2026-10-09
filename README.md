@@ -1,34 +1,26 @@
-# Whiteout Survival — Bir ateş. Yeni bir dünya.
+# Whiteout Survival — Yerel tasarım
 
-Özgün ikinci sürüm: orijinal sayfa düzeninden bağımsız olarak yeniden tasarlandı.
+Oyunun resmî logosu, açılış sanatı ve kahraman görselleriyle yenilenmiş sürüm. Son sürüm GitHub deposuna aktarılmıştır.
 
 ## Açılış
 
-Yerel adres: http://127.0.0.1:4173
+http://127.0.0.1:4173/
 
-Mac'te `Baslat.command` dosyasına çift tıkla. Açılan Terminal penceresi sunucuyu çalıştırır; kapatırsan site de durur. Python 3 bu laptopta mevcut.
+Mac’te Baslat.command dosyasına çift tıkla. Terminal penceresi sunucuyu çalıştırır; kapatılırsa site durur.
 
-Alternatif: bu klasörde `python3 -m http.server 4173 --bind 127.0.0.1 --directory .` çalıştır.
+## İçerik
 
-## Tasarım ve etkileşimler
+- Resmî logo ve oyun görselleri; buz mavisi ve sıcak sarı renkler.
+- Seçilebilir Molly, Natalia, Zinman ve Jeronimo.
+- Beş görsellik büyütülebilir galeri; önceki/sonraki gezinmesi ve Escape ile kapanma.
+- Century Games kaynaklı üç duyuru ve resmî bağlantılar.
+- Etkileşimli keşif rotaları, başlangıç rehberi, mağaza ve topluluk bağlantıları.
+- Mobil menü, klavye odağı ve azaltılmış hareket desteği.
 
-- Özel üretilmiş kış şehri görseli ve hareketli kar.
-- Petrol yeşili, krem ve turuncu renk sistemi; yeni tipografi, kelime logosu ve sayfa akışı.
-- Asimetrik oyun tanıtımı.
-- Şehir / vahşi doğa / ittifak rotaları: sekmelerle değişen içerik, klavyeyle gezinme.
-- Piyade / mızrakçı / nişancı rol seçimi.
-- Açılır başlangıç rehberi.
-- Resmî topluluk, haber ve mağaza bağlantıları.
-- Mobil menü, odak göstergeleri ve azaltılmış hareket desteği.
+Statik kaynaklar depo kökünde; paket kurulumu gerekmez. Görseller ve yazı tipleri yereldir. Dış bağlantılar internet gerektirir.
 
-## Dosyalar
+Oyun markası ve görselleri Century Games’e aittir. Bağımsız tasarım konseptidir; resmî siteye yüklenmedi.
 
-Statik HTML, CSS ve JavaScript kök dizinde. Paket kurulumu gerektirmez. Yazı tipleri ve tüm görseller yerel olarak saklanır. Dış mağaza ve topluluk bağlantıları internet gerektirir.
+Kaynaklar: https://whiteoutsurvival.centurygames.com/tr ve https://www.centurygames.com/games/a/
 
-Bu bir yerel tasarım konseptidir; Century Games'in resmî alan adına yüklenmedi. Oyun markası ve oyun görselleri Century Games'e aittir. Ana kış şehri görseli bu sürüm için yapay zekâyla üretilmiş konsept sanattır, oyun içi görüntü değildir.
-
-## Doğrulama
-
-Masaüstü ve 390px telefon görünümü; yatay taşma ve görsel yüklemeleri; mobil menü; tıklama ve klavyeyle rota seçimi; rol seçimi; rehber; JavaScript sözdizimi ve yerel sunucu yanıtı.
-
-Görsel üretim ayrıntıları: `Gorsel-uretimi.md`.
+Masaüstü ve 390px mobil görünüm, yatay taşma, görsel yüklemeleri, kahraman seçimi, galeri gezinmesi/kapanması ve mobil menü kontrol edildi.
